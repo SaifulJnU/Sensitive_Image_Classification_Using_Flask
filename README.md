@@ -1,4 +1,4 @@
-# Sentivive_Image_Classification_Using_Flask
+# Senstive_Image_Classification_Using_Flask
 
 ## To run this app:
 1. Clone this repo
