@@ -1,9 +1,10 @@
 # Sentivive_Image_Classification_Using_Flask
 
-## to run this app:
-1. clone this repo
-2. open open the repo with command line
-3. type on command line: python app.py   
+## To run this app:
+1. Clone this repo
+2. Open open the repo with command line
+3. Type on command line:
+''' python app.py '''
 by doing this you will have a url then click on it with ctrl+enter
 
 Note: your system must have to the essential package of python, numpy, tensorflow
