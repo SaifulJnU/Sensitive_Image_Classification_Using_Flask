@@ -16,7 +16,6 @@ def predict_label(img_path):
 	i = image.img_to_array(i)/255.0
 	i = i.reshape(1, 100,100,3)
 	p = np.argmax(model.predict(i) > 0.5,axis=1).astype("int32")
- 
 	return dic[p[0]]
 
 
@@ -33,12 +32,9 @@ def about_page():
 def get_output():
 	if request.method == 'POST':
 		img = request.files['my_image']
-
-		img_path = "static/" + img.filename	
+		img_path = "static/child_abusing/" + img.filename	
 		img.save(img_path)
-
 		p = predict_label(img_path)
-
 	return render_template("index.html", prediction = p, img_path = img_path)
 
 
